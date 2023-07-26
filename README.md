@@ -44,6 +44,8 @@ This quick start demonstrates how to connect to a Cassandra Managed instance clu
    
 5. Run `python pyquickstart.py` in a terminal to execute it.
 
+    ![Console output](./media/output.png)
+
 ## About the code
 The code included in this sample is intended to get you quickly started with a python program that connects to Azure Managed Instance for Apache Cassandra.
 
