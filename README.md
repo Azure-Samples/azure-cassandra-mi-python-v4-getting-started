@@ -33,7 +33,7 @@ This quick start demonstrates how to connect to a Cassandra Managed instance clu
     'port':9042
 	```
 
-4. Run 
+3. Run 
    ```
    pip install cassandra-driver
    pip install prettytable
@@ -42,7 +42,7 @@ This quick start demonstrates how to connect to a Cassandra Managed instance clu
    ```
    in a terminal to install required python packages
    
-5. Run `python pyquickstart.py` in a terminal to execute it.
+4. Run `python pyquickstart.py` in a terminal to execute it.
 
     ![Console output](./media/output.png)
 
