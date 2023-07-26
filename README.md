@@ -25,23 +25,23 @@ This quick start demonstrates how to connect to a Cassandra Managed instance clu
 
 2. Replace `<FILLME>` in `username`, `password`, `contactPoint` and `datacenter-name` with the appropriate values in `config.py`. The `contactPoint` should be one of the private I.P. seed nodes in your cluster.
 
-	```
+    ```python
     'username': '<FILLME>',
     'password': '<FILLME>',
     'contactPoint': '<FILLME>',
     'datacenter-name': '<FILLME>',
     'port':9042
-	```
+    ```
 
-3. Run 
-   ```
-   pip install cassandra-driver
-   pip install prettytable
-   pip install requests
-   pip install pyopenssl
-   ```
-   in a terminal to install required python packages
+3. Run the below in a terminal to install required python packages.
    
+    ```python
+    pip install cassandra-driver
+    pip install prettytable
+    pip install requests
+    pip install pyopenssl
+    ```
+ 
 4. Run `python pyquickstart.py` in a terminal to execute it.
 
     ![Console output](./media/output.png)
